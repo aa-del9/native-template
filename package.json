@@ -117,7 +117,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user/repo-name.git"
+    "url": "git+https://github.com/aa-del9/native-template.git"
   },
   "packageManager": "pnpm@10.12.3",
   "expo": {

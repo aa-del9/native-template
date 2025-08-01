@@ -18,7 +18,7 @@ Native app Template </h1>
 Clone the repo to your machine and install deps :
 
 ```sh
-git clone https://github.com/aa-del9/native-template
+git clone https://github.com/aa-del9/native-template.git
 
 cd ./repo-name
 
