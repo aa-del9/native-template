@@ -1,23 +1,24 @@
 // import { useScrollToTop } from "@react-navigation/native"
-import { StatusBarProps, StatusBarStyle } from 'expo-status-bar';
-import { ReactNode, useRef, useState } from 'react';
+import { type StatusBarProps, type StatusBarStyle } from 'expo-status-bar';
+import { type ReactNode, useRef, useState } from 'react';
 import {
   KeyboardAvoidingView,
-  KeyboardAvoidingViewProps,
-  LayoutChangeEvent,
+  type KeyboardAvoidingViewProps,
+  type LayoutChangeEvent,
   Platform,
-  ScrollView,
-  ScrollViewProps,
-  StyleProp,
-  ViewStyle,
+  type ScrollView,
+  type ScrollViewProps,
+  type StyleProp,
+  type ViewStyle,
 } from 'react-native';
-import {
-  ExtendedEdge,
-  useSafeAreaInsetsStyle,
-} from '@/lib/useSafeAreaInsetsStyle';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-controller';
 import { twMerge } from 'tailwind-merge';
+
 import { View } from '@/components/ui';
+import {
+  type ExtendedEdge,
+  useSafeAreaInsetsStyle,
+} from '@/lib/use-safe-area-insets-style';
 
 export const DEFAULT_BOTTOM_OFFSET = 50;
 

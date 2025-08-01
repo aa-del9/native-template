@@ -4,8 +4,8 @@ import React from 'react';
 import type { Post } from '@/api';
 import { usePosts } from '@/api';
 import { Card } from '@/components/card';
-import { EmptyList, Text, View } from '@/components/ui';
 import { Screen } from '@/components/screen';
+import { EmptyList, Text, View } from '@/components/ui';
 
 export default function Feed() {
   const { data, isPending, isError } = usePosts();

@@ -1,12 +1,12 @@
+import { router } from 'expo-router';
 import * as React from 'react';
 
 import { Buttons } from '@/components/buttons';
 import { Colors } from '@/components/colors';
 import { Inputs } from '@/components/inputs';
-import { Typography } from '@/components/typography';
 import { Screen } from '@/components/screen';
+import { Typography } from '@/components/typography';
 import { Button } from '@/components/ui';
-import { router } from 'expo-router';
 
 export default function Style() {
   return (

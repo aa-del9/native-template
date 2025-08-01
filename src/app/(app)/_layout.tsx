@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unstable-nested-components */
-import { SplashScreen, Stack, Tabs } from 'expo-router';
+import { SplashScreen, Stack } from 'expo-router';
 import React, { useCallback, useEffect } from 'react';
 
 import { useAuth } from '@/lib';
